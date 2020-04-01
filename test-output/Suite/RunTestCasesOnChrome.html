@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>TestNG:  RunTestCasesOnChrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RunTestCasesOnChrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 01 17:29:34 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>253 seconds (253495 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.DoLoginCase.Login()'><b>Login</b><br>Test class: TestCases.DoLoginCase<br/>
+<a href="#Output-554348863" onClick='toggleBox("Output-554348863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554348863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554348863">
+Enter the Username.<br/>
+Enter the Password.<br/>
+Click on the Sign In button.<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>TestCases.DoLoginCase@5ae63ade</td></tr>
+<tr>
+<td title='TestCases.SwitchLanguageCase.SwichLanguage()'><b>SwichLanguage</b><br>Test class: TestCases.SwitchLanguageCase<br/>
+<a href="#Output-1173346575" onClick='toggleBox("Output-1173346575", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1173346575" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1173346575">
+Click on the Profile dropdown tab.<br/>
+Dropdown List is available on page.<br/>
+Get the language is selected on user profile.<br/>
+English language is selected on user profile.<br/>
+Select the Japanease Language.<br/>
+Click on the Profile dropdown tab.<br/>
+Dropdown List is available on page.<br/>
+Japanease language is selected on user profile.<br/>
+Select the English Language.<br/>
+</div>
+</td>
+<td></td>
+<td>83</td>
+<td>TestCases.SwitchLanguageCase@610694f1</td></tr>
+<tr>
+<td title='TestCases.RequiredTabAccessCase.SwichLanguage()'><b>SwichLanguage</b><br>Test class: TestCases.RequiredTabAccessCase<br/>
+<a href="#Output-196732636" onClick='toggleBox("Output-196732636", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-196732636" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-196732636">
+Click on the Dasboard Tab.<br/>
+Verify the URL of Dashboard Tab.<br/>
+Dasboard Tab is accessible.<br/>
+Click on the Alerts Tab.<br/>
+Verify the URL of Alerts Tab.<br/>
+Alerts Tab is accessible.<br/>
+Click on the Tests Tab.<br/>
+Verify the URL of Tests Tab.<br/>
+Tests Tab is accessible.<br/>
+Click on the Variables Tab.<br/>
+Verify the URL of Variables Tab.<br/>
+Variables Tab is accessible.<br/>
+Click on the Notifications Tab.<br/>
+Verify the URL of Notifications Tab.<br/>
+Notifications Tab is accessible.<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>TestCases.RequiredTabAccessCase@43814d18</td></tr>
+<tr>
+<td title='TestCases.AccessClientInformationCase.SwichLanguage()'><b>SwichLanguage</b><br>Test class: TestCases.AccessClientInformationCase<br/>
+<a href="#Output-1828873985" onClick='toggleBox("Output-1828873985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1828873985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828873985">
+Click on the Profile dropdown tab.<br/>
+Dropdown List is available on page.<br/>
+Click on the Client tab in profile.<br/>
+Get the Client Name nn client information tab.<br/>
+Verify the Client Name is available on information tab.<br/>
+We are getting client information on information tab and client name is: Empirix_QA_Training<br/>
+Logout the profile.<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>TestCases.AccessClientInformationCase@5c5a1b69</td></tr>
+</table><p>
+</body>
+</html>

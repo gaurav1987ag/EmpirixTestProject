@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Set the property for Chrome Driver.]]>
+    </line>
+    <line>
+      <![CDATA[Create the instance for Chrome Driver.]]>
+    </line>
+    <line>
+      <![CDATA[Launch the URL on Chrome Browser.]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the Chrome Window.]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Username.]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Password.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Sign In button.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Profile dropdown tab.]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown List is available on page.]]>
+    </line>
+    <line>
+      <![CDATA[Get the language is selected on user profile.]]>
+    </line>
+    <line>
+      <![CDATA[English language is selected on user profile.]]>
+    </line>
+    <line>
+      <![CDATA[Select the Japanease Language.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Profile dropdown tab.]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown List is available on page.]]>
+    </line>
+    <line>
+      <![CDATA[Japanease language is selected on user profile.]]>
+    </line>
+    <line>
+      <![CDATA[Select the English Language.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Dasboard Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the URL of Dashboard Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Dasboard Tab is accessible.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Alerts Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the URL of Alerts Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Alerts Tab is accessible.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Tests Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the URL of Tests Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Tests Tab is accessible.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Variables Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the URL of Variables Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Variables Tab is accessible.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Notifications Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the URL of Notifications Tab.]]>
+    </line>
+    <line>
+      <![CDATA[Notifications Tab is accessible.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Profile dropdown tab.]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown List is available on page.]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Client tab in profile.]]>
+    </line>
+    <line>
+      <![CDATA[Get the Client Name nn client information tab.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Client Name is available on information tab.]]>
+    </line>
+    <line>
+      <![CDATA[We are getting client information on information tab and client name is: Empirix_QA_Training]]>
+    </line>
+    <line>
+      <![CDATA[Logout the profile.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="253495" started-at="2020-04-01T17:29:34 IST" finished-at="2020-04-01T17:33:47 IST">
+    <groups>
+    </groups>
+    <test name="RunTestCasesOnChrome" duration-ms="253495" started-at="2020-04-01T17:29:34 IST" finished-at="2020-04-01T17:33:47 IST">
+      <class name="TestCases.RequiredTabAccessCase">
+        <test-method status="PASS" signature="SwichLanguage()[pri:0, instance:TestCases.RequiredTabAccessCase@43814d18]" name="SwichLanguage" duration-ms="32887" started-at="2020-04-01T17:32:21 IST" finished-at="2020-04-01T17:32:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the Dasboard Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the URL of Dashboard Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Dasboard Tab is accessible.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Alerts Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the URL of Alerts Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Alerts Tab is accessible.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Tests Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the URL of Tests Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Tests Tab is accessible.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Variables Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the URL of Variables Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Variables Tab is accessible.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Notifications Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the URL of Notifications Tab.]]>
+            </line>
+            <line>
+              <![CDATA[Notifications Tab is accessible.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SwichLanguage -->
+      </class> <!-- TestCases.RequiredTabAccessCase -->
+      <class name="TestCases.SwitchLanguageCase">
+        <test-method status="PASS" signature="SwichLanguage()[pri:0, instance:TestCases.SwitchLanguageCase@610694f1]" name="SwichLanguage" duration-ms="83985" started-at="2020-04-01T17:30:57 IST" finished-at="2020-04-01T17:32:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the Profile dropdown tab.]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown List is available on page.]]>
+            </line>
+            <line>
+              <![CDATA[Get the language is selected on user profile.]]>
+            </line>
+            <line>
+              <![CDATA[English language is selected on user profile.]]>
+            </line>
+            <line>
+              <![CDATA[Select the Japanease Language.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Profile dropdown tab.]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown List is available on page.]]>
+            </line>
+            <line>
+              <![CDATA[Japanease language is selected on user profile.]]>
+            </line>
+            <line>
+              <![CDATA[Select the English Language.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SwichLanguage -->
+      </class> <!-- TestCases.SwitchLanguageCase -->
+      <class name="TestCases.AccessClientInformationCase">
+        <test-method status="PASS" signature="SwichLanguage()[pri:0, instance:TestCases.AccessClientInformationCase@5c5a1b69]" name="SwichLanguage" duration-ms="53711" started-at="2020-04-01T17:32:53 IST" finished-at="2020-04-01T17:33:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the Profile dropdown tab.]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown List is available on page.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Client tab in profile.]]>
+            </line>
+            <line>
+              <![CDATA[Get the Client Name nn client information tab.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Client Name is available on information tab.]]>
+            </line>
+            <line>
+              <![CDATA[We are getting client information on information tab and client name is: Empirix_QA_Training]]>
+            </line>
+            <line>
+              <![CDATA[Logout the profile.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SwichLanguage -->
+      </class> <!-- TestCases.AccessClientInformationCase -->
+      <class name="TestCases.DoLoginCase">
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCases.DoLoginCase@5ae63ade]" name="Login" duration-ms="25603" started-at="2020-04-01T17:30:31 IST" finished-at="2020-04-01T17:30:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter the Username.]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Password.]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Sign In button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- TestCases.DoLoginCase -->
+      <class name="TestCore.CoreFile">
+        <test-method status="PASS" signature="Init(java.lang.String)[pri:0, instance:TestCore.CoreFile@3dd4520b]" name="Init" is-config="true" duration-ms="57219" started-at="2020-04-01T17:29:34 IST" finished-at="2020-04-01T17:30:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Set the property for Chrome Driver.]]>
+            </line>
+            <line>
+              <![CDATA[Create the instance for Chrome Driver.]]>
+            </line>
+            <line>
+              <![CDATA[Launch the URL on Chrome Browser.]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the Chrome Window.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Init -->
+      </class> <!-- TestCore.CoreFile -->
+    </test> <!-- RunTestCasesOnChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

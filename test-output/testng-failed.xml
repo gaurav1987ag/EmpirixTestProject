@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="RunTestCasesOnChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.SwitchLanguageCase">
+        <methods>
+          <include name="Init"/>
+          <include name="SwichLanguage"/>
+        </methods>
+      </class> <!-- TestCases.SwitchLanguageCase -->
+      <class name="TestCases.AccessClientInformationCase">
+        <methods>
+          <include name="SwichLanguage"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- TestCases.AccessClientInformationCase -->
+      <class name="TestCases.RequiredTabAccessCase">
+        <methods>
+          <include name="SwichLanguage"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- TestCases.RequiredTabAccessCase -->
+    </classes>
+  </test> <!-- RunTestCasesOnChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
